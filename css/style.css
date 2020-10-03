@@ -10,7 +10,7 @@ a {
 	font-family: Amarante;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #b4afaf;
 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -48,7 +48,7 @@ ul, li {
 
 #mainNav{
     min-height: 56px;
-  background-color: rgba(245, 94, 7, 0.644);
+  background-color: rgba(189, 75, 9, 0.644);
 }
 
 #mainNav .navbar-toggler {
@@ -63,13 +63,13 @@ ul, li {
 }
 
 #mainNav .navbar-brand {
-  color: yellow;
+  color: rgb(158, 158, 21);
   font-weight: 700;
   padding: .9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(rgba(255, 255, 255, 0.897), 80%);
   outline: none;
   background-color: transparent;
 }
@@ -89,7 +89,7 @@ ul, li {
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
   }
   #mainNav .nav-link {
     transition: none;
@@ -97,7 +97,7 @@ ul, li {
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(209, 133, 19, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -153,14 +153,14 @@ ul, li {
   .masthead h2 {
     max-width: 20rem;
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.815);
+    color: rgb(207, 211, 19);
   }
 
   .mypic{
     width: 150px;
     height: 250px;
     margin-top: 25px;
-    box-shadow: 0 10px 30px 0px #01000c80;
+    box-shadow: 0 10px 30px 2px #7d7c8080;
   }
   
   @media (min-width: 768px) {
@@ -207,7 +207,7 @@ ul, li {
   }
   
   .btn-primary:hover {
-    background-color: #f1bc0c;
+    background-color: #dfae0f;
   }
   
   .btn-primary:focus {
