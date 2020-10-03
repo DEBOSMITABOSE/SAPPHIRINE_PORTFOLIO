@@ -8,6 +8,8 @@
   
 
   <title>portfolio</title>
+  <!-- AOS Librarary-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -81,7 +83,8 @@
     <section id="about" class="abdebo">
     
       <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
+        <div class="mx-auto text-center"data-aos="fade-up"
+        data-aos-duration="3000">
     
           <h2 class="text-white " style="font-size: 35px;">LET’S INTRODUCE ABOUT MYSELF</h2><br><br>
           <p class="text-white-50" >
@@ -114,9 +117,10 @@
             </div>
         </div>
       </div>
-        <div class="row">
+        <div class="row"
+        >
         <!-- Single gallery Item -->
-        <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.2s" style="float: left; margin-right: 10px; width:550px;">
+        <div class="single_gallery_item visual wow fadeInUp"data-aos="fade-down-right"data-aos-duration="3000" data-wow-delay="0.2s" style="float: left; margin-right: 10px; width:550px;">
             <img src="img/1.jpg" alt="">
             <div class="hover-content text-center d-flex align-items-center justify-content-center">
                 <div class="hover-text">
@@ -127,7 +131,7 @@
         </div>
 
         <!-- Single gallery Item -->
-        <div class="single_gallery_item add wow fadeInUp" data-wow-delay="0.4s" style="width:537px;">
+        <div class="single_gallery_item add wow fadeInUp"data-aos="fade-down-left"data-aos-duration="3000" data-wow-delay="0.4s" style="width:537px;">
             <img src="img/2.jpg" alt="">
             <div class="hover-content text-center d-flex align-items-center justify-content-center">
                 <div class="hover-text">
@@ -138,7 +142,7 @@
         </div>
 
         <!-- Single gallery Item -->
-        <div class="single_gallery_item web wow fadeInUp" data-wow-delay="0.6s" style="float: left;margin-right: 10px; width:550px;">
+        <div class="single_gallery_item web wow fadeInUp" data-aos="fade-up-right"data-aos-duration="3000"data-wow-delay="0.6s" style="float: left;margin-right: 10px; width:550px;">
             <img src="img/3.jpg" alt="">
             <div class="hover-content text-center d-flex align-items-center justify-content-center">
                 <div class="hover-text">
@@ -148,7 +152,7 @@
             </div>
         </div>
 
-        <div class="single_gallery_item web wow fadeInUp" data-wow-delay="0.6s" style="width:540px;">
+        <div class="single_gallery_item web wow fadeInUp"data-aos="fade-up-left"data-aos-duration="3000" data-wow-delay="0.6s" style="width:540px;">
           <img src="img/4.jpg" alt="">
           <div class="hover-content text-center d-flex align-items-center justify-content-center">
               <div class="hover-text">
@@ -168,7 +172,7 @@
     
          
 
-          <div class="container">
+          <div class="container" data-aos="fade-down"data-aos-duration="3000">
             
 
             
@@ -334,7 +338,7 @@
 
     <div class="row">
 
-      <div class="col-md-4 mb-3 mb-md-0">
+      <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-right"data-aos-duration="3000">
         <div class="card py-4 h-100" >
           <div class="card-body text-center">
             <i class="fas fa-map-marked-alt text-primary mb-2" style="color: yellow;"></i>
@@ -345,7 +349,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 mb-3 mb-md-0">
+      <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-down"data-aos-duration="3000">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-envelope text-primary mb-2"></i>
@@ -358,7 +362,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 mb-3 mb-md-0">
+      <div class="col-md-4 mb-3 mb-md-0"data-aos="fade-left"data-aos-duration="3000">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-mobile-alt text-primary mb-2" ></i>
@@ -407,7 +411,12 @@
   <script src="js/main.js"></script>
   <script src="js/active.js"></script>
 
+<!--Initialize Aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script>
+  AOS.init();
+</script>
   
 </body>
 </html>
