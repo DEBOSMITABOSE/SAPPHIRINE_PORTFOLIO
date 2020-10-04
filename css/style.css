@@ -228,18 +228,7 @@ ul, li {
     margin-bottom: 5rem;
   }
   
-  .abdebo{
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background: linear-gradient(to bottom, rgba(255, 3, 3, 0.315) 0%, rgba(255, 83, 3, 0.233) 75%), url("../img/autumn_forest_trees.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  
   
   .social {
     margin-top: 15px;
@@ -266,6 +255,18 @@ ul, li {
   .social a:active {
     color: yellow;
   }
+  .abdebo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(255, 3, 3, 0.315) 0%, rgba(255, 83, 3, 0.233) 75%), url("../img/autumn_forest_trees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
   .skidebo{
     position: relative;
@@ -280,18 +281,7 @@ ul, li {
     background-size: cover;
   }
 
-  .codebo{
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background:/* linear-gradient(to bottom, rgba(255, 83, 3, 0.322) 0%, rgba(255, 0, 157, 0.288) 75%),*/ url("../img/artistic-red-forest-23.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  
 
   .prodebo{
     position: relative;
@@ -305,7 +295,18 @@ ul, li {
     background-attachment: fixed;
     background-size: cover;
   }
-
+  .codebo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background:/* linear-gradient(to bottom, rgba(255, 83, 3, 0.322) 0%, rgba(255, 0, 157, 0.288) 75%),*/ url("../img/artistic-red-forest-23.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
   .single-cool-fact {
     position: relative;
@@ -434,12 +435,7 @@ ul, li {
         margin-bottom: 0;
         color: #f1efef; }
 
-        .card {
-          border: 0;
-          border-bottom: 0.25rem solid yellow;
-          background-color: rgba(255, 115, 0, 0.658); 
-          border-radius: 50%;
-        }  
+         
 
        .card hr {
           border-color: yellow;
@@ -447,6 +443,12 @@ ul, li {
           border-width: 0.25rem;
           width: 3rem;
         }
+        .card {
+          border: 0;
+          border-bottom: 0.25rem solid yellow;
+          background-color: rgba(255, 115, 0, 0.658); 
+          border-radius: 50%;
+        } 
 
         .text-primary {
           color: yellow !important;
