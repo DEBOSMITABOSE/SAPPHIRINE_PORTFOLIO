@@ -10,7 +10,7 @@ a {
 	font-family: Amarante;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #b4afaf;
+	color: #666666;
 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -45,10 +45,10 @@ ul, li {
 	list-style-type: none;
 }
 
-
+@media (max-width: 992px) {
 #mainNav{
     min-height: 56px;
-  background-color: rgba(189, 75, 9, 0.644);
+  background-color: rgba(245, 94, 7, 0.644);
 }
 
 #mainNav .navbar-toggler {
@@ -63,13 +63,13 @@ ul, li {
 }
 
 #mainNav .navbar-brand {
-  color: rgb(158, 158, 21);
+  color: yellow;
   font-weight: 700;
   padding: .9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(rgba(255, 255, 255, 0.897), 80%);
+  color: fade(white, 80%);
   outline: none;
   background-color: transparent;
 }
@@ -77,6 +77,7 @@ ul, li {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
 }
 
 @media (min-width: 992px) {
@@ -89,7 +90,7 @@ ul, li {
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
     transition: none;
@@ -97,7 +98,7 @@ ul, li {
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(209, 133, 19, 0.75);
+    color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -144,23 +145,24 @@ ul, li {
     font-size: 2.5rem;
     line-height: 2.5rem;
     
-    background: -webkit-linear-gradient(rgb(240, 72, 5), rgba(221, 245, 6, 0.6));
+    background: -webkit-linear-gradient(rgb(240, 72, 5), rgba(221, 245, 6, 0.562));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 
   }
   
   .masthead h2 {
     max-width: 20rem;
     font-size: 1rem;
-    color: rgb(207, 211, 19);
+    color: rgba(255, 255, 255, 0.815);
   }
 
   .mypic{
     width: 150px;
     height: 250px;
     margin-top: 25px;
-    box-shadow: 0 10px 30px 2px #7d7c8080;
+    box-shadow: 0 10px 30px 0px #01000c80;
   }
   
   @media (min-width: 768px) {
@@ -207,7 +209,7 @@ ul, li {
   }
   
   .btn-primary:hover {
-    background-color: #dfae0f;
+    background-color: #f1bc0c;
   }
   
   .btn-primary:focus {
@@ -228,7 +230,18 @@ ul, li {
     margin-bottom: 5rem;
   }
   
-  
+  .abdebo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(255, 3, 3, 0.315) 0%, rgba(255, 83, 3, 0.233) 75%), url("../img/autumn_forest_trees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
   
   .social {
     margin-top: 15px;
@@ -255,18 +268,6 @@ ul, li {
   .social a:active {
     color: yellow;
   }
-  .abdebo{
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background: linear-gradient(to bottom, rgba(255, 3, 3, 0.315) 0%, rgba(255, 83, 3, 0.233) 75%), url("../img/autumn_forest_trees.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
 
   .skidebo{
     position: relative;
@@ -281,20 +282,6 @@ ul, li {
     background-size: cover;
   }
 
-  
-
-  .prodebo{
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 10rem 0 15rem;
-    background:linear-gradient(to bottom, rgba(255, 20, 3, 0.322) 0%, rgba(255, 94, 0, 0.288) 75%), url("../img/sunrays.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
   .codebo{
     position: relative;
     width: 100%;
@@ -308,19 +295,36 @@ ul, li {
     background-size: cover;
   }
 
-  .single-cool-fact {
+  .prodebo{
     position: relative;
-    z-index: 1;
-    text-align: center; }
-  .single-cool-fact .scf-icon {
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 10rem 0 15rem;
+    background:linear-gradient(to bottom, rgba(255, 20, 3, 0.322) 0%, rgba(255, 94, 0, 0.288) 75%), url("../img/sunrays.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    
+  }
+
+    .single-cool-fact {
       position: relative;
       z-index: 1;
-      margin-bottom: 30px; }
-      .single-cool-fact .scf-text h2 {
-      font-size: 48px;
-      margin-bottom: 20px;
-      color: yellow;
-      font-weight: 500; }
+      text-align: center; }
+    .single-cool-fact .scf-icon {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 30px; }
+        .single-cool-fact .scf-text h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        color: yellow;
+        font-weight: 500; }
+    
+
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-cool-fact .scf-text h2 {
           font-size: 36px; } }
@@ -435,7 +439,12 @@ ul, li {
         margin-bottom: 0;
         color: #f1efef; }
 
-         
+        .card {
+          border: 0;
+          border-bottom: 0.25rem solid yellow;
+          background-color: rgba(255, 115, 0, 0.658); 
+          border-radius: 50%;
+        }  
 
        .card hr {
           border-color: yellow;
@@ -443,12 +452,6 @@ ul, li {
           border-width: 0.25rem;
           width: 3rem;
         }
-        .card {
-          border: 0;
-          border-bottom: 0.25rem solid yellow;
-          background-color: rgba(255, 115, 0, 0.658); 
-          border-radius: 50%;
-        } 
 
         .text-primary {
           color: yellow !important;
